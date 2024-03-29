@@ -26,6 +26,7 @@ It has some metadata, and then a list of rankings with some additional data for 
 
 ## Or filterable too!
 
+![image](site/sketches/filterable_table.png)
 
 
 # Credits
