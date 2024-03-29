@@ -1,0 +1,54 @@
+<html>
+<head>
+    <style type="text/css">
+        /* Maybe you want to move this to our css folder? */
+
+        #loadedData {
+            max-height: 200px;
+            overflow: scroll;
+        }
+
+    </style>
+    <script>
+        // This runs when everthing has loaded
+        addEventListener("load", async function() {
+
+            // This loads the data from ./data (this could pull from an external website but for learning this is fine
+            const apiResponse = await fetch("./data/ranking.json")
+            //This then converts the response to JSON (Note: There is no error handling here!)
+            const golfData = await apiResponse.json();
+
+            //Now we have the data... do something with it (Just log it to the console)
+            console.log(golfData);
+
+            // And also save it to the page, this gets the element and modifies the HTML
+            // (JSON.stringify just converts the object back to JSON)
+            document.getElementById("loadedData").innerHTML = JSON.stringify(golfData)
+        });
+    </script>
+</head>
+
+<body>
+
+<h1>Loaded Golf data (there is a lot)</h1>
+
+<p>Here is the loaded data:</p>
+
+<div id="loadedData"></div>
+
+<h1>Now we have the data, lets do something with it</h1>
+
+<h2>You could just list all the data</h2>
+
+<h2>You could create a table</h2>
+
+<h2>You could make it sortable</h2>
+
+<h2>Or filterable too!</h2>
+
+</body>
+
+
+
+
+</html>
