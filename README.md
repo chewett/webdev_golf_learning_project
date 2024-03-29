@@ -54,6 +54,11 @@ Or as a different but similar step, filtering data based on what you type in
 * You could look at charting the event data or similar using a graphing library
   [ChartJS](https://www.chartjs.org/docs/latest/getting-started/) is quite popular
 
+# Sketch files
+
+All the UI sketches were created via [Pencil](https://pencil.evolus.vn/) and the file for this has been included
+as `golf_project_sketches.epgz`
+
 # Credits
 
 Thanks to the golf API at https://rapidapi.com/sportcontentapi/api/golf-leaderboard-data for the data
