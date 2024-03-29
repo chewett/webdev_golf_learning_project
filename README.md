@@ -22,6 +22,8 @@ It has some metadata, and then a list of rankings with some additional data for 
 
 ## You could make it sortable
 
+![image](site/sketches/sortable_table.png)
+
 ## Or filterable too!
 
 
