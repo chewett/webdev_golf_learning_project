@@ -12,7 +12,17 @@ It has some metadata, and then a list of rankings with some additional data for 
 
 # Project ideas
 
-TODO:
+## You could just list all the data
+
+![image](site/sketches/basic_list.png)
+
+## You could create a table
+
+## You could make it sortable
+
+## Or filterable too!
+
+
 
 # Credits
 
