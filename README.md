@@ -18,6 +18,8 @@ It has some metadata, and then a list of rankings with some additional data for 
 
 ## You could create a table
 
+![image](site/sketches/basic_table.png)
+
 ## You could make it sortable
 
 ## Or filterable too!
